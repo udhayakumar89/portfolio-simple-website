@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    padding: 50px;
+}
+
+.section-one {
+    color: white;
+    background-color: black;
+    padding: 20px;
+
+}
+
+.section-one__image {
+    display: inline;
+    ;
+}
+
+.section-one__contact {
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.section-one__name {
+    font-size: 60px;
+
+}
+
+.section-one__role {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.section-two,
+.section-three,
+.section-four,
+.section-five,.contact-form {
+    margin-top: 20px;
+}
+
+.section-two__desc,
+.section-three__desc,
+.section-four__desc {
+    margin-top: 10px;
+}
+
+.section-three li,
+.section-four li {
+    list-style: none;
+}
+
+.section-three {
+    background-color: #87C4B9;
+    display: inline-block;
+    width: 150px;
+    padding-left: 30px;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    vertical-align: top;
+    height: 235px;
+}
+
+.section-four {
+    background-color: orange;
+    display: inline-block;
+    width: 750px;
+
+    padding-left: 30px;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    vertical-align: top;
+}
+
+.section-five {
+    background-color: black;
+    color: white;
+    display: block;
+    padding-left: 30px;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.section-five a {
+    color: blue;
+    text-decoration: none;
+}
+.contact {
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+.contact__name{
+    font-size: 60px;
+    text-decoration: none;
+    }
+    .contact__name a {
+        color: white;
+        text-decoration: none;
+    }
+.contact__role{
+    font-size: 30px;
+}
+.contact-form__name,.contact-form__email,.contact-form__message,.contact-form__submit{
+    margin-top: 10px;
+}
+.contact-form__name,.contact-form__email{
+   border: none;
+   border-bottom: solid 1px;
+}
+.contact-form__message{
+    border: solid 1px;
+}
+.contact-form__submit {
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    border:none
+}
